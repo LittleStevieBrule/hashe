@@ -1,3 +1,3 @@
-require 'hasher/version'
-require 'hasher/mixin'
-require 'hasher/hash'
+require 'hashe/version'
+require 'hashe/mixin'
+require 'hashe/hash'

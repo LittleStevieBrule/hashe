@@ -1,5 +1,5 @@
 # @author Stephen McGuckin <stephendmcguckin@gmail.com>
-module Hasher
+module hashe
   # A mixin used for including into a class
   #   @example
   #     class MyCustomHash

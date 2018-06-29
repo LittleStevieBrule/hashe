@@ -1,16 +1,16 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'hasher/version'
+require 'hashe/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'hasher'
-  spec.version       = Hasher::VERSION
-  spec.authors       = ['LittleStevieBrule']
-  spec.email         = ['stephendmcguckin@gmail.com']
+  spec.name          = 'hashe'
+  spec.version       = hashe::VERSION
+  spec.authors       = %w[LittleStevieBrule StephenMcGuckinDAT]
+  spec.email         = %w[stephendmcguckin@gmail.com]
 
   spec.summary       = 'Hash with dynamic setters and getters'
-  spec.homepage      = 'https://github.com/LittleStevieBrule/hasher'
+  spec.homepage      = 'https://github.com/LittleStevieBrule/hashe'
   spec.license       = 'MIT'
 
   spec.files = Dir.chdir(File.expand_path('..', __FILE__)) do
