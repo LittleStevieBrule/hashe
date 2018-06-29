@@ -3,11 +3,3 @@ language: ruby
 rvm:
   - 2.5.0
 before_install: gem install bundler -v 1.16.2
-after_success:
-  - git stash --all
-  - git checkout master
-  - rake release
-branches:
-  only:
-  - master
-  - stable
