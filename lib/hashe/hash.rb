@@ -1,4 +1,4 @@
-module hashe
+module Hashe
   # hash with mixin
   class Hash
     include Mixin

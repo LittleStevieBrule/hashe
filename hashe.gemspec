@@ -5,7 +5,7 @@ require 'hashe/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'hashe'
-  spec.version       = hashe::VERSION
+  spec.version       = Hashe::VERSION
   spec.authors       = %w[LittleStevieBrule StephenMcGuckinDAT]
   spec.email         = %w[stephendmcguckin@gmail.com]
 
