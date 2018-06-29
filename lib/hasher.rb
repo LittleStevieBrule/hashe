@@ -1,4 +1,3 @@
 require 'hasher/version'
-
-module Hasher
-end
+require 'hasher/mixin'
+require 'hasher/hash'
