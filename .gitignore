@@ -11,3 +11,5 @@
 .rspec_status
 # idea stuff
 /.idea/
+# gemfile.lock
+Gemfile.lock
